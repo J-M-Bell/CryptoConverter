@@ -11,7 +11,11 @@ import SwiftUI
 struct CryptoConverterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView()
         }
     }
+}
+
+#Preview {
+    LaunchView()
 }
